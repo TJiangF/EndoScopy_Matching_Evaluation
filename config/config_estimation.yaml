@@ -1,0 +1,20 @@
+paths:
+    log: "runs"
+    validation_data: "./data//Unity_Stomach"
+    txtsavepath: "./data//Unity_Stomach/modeloutput/"
+    paramsavepath: "./data//Unity_Stomach/modeloutput/"
+params:
+        model_name: "HardNet128"
+        model: "UnityCam_Stomach_Net128"
+        weights_path: "./models/UnityCam_Stomach_Net128.pth"
+        # model: "LowCam_Small_Intestine_Net128"
+        # weights_path: "./models/LowCam_Small_Intestine_Net128.pth"
+        # model: "LowCam_Colon4_Net128"
+        # weights_path: "./models/LowCam_Colon4_Net128.pth"
+        # model: "HardNet128"
+        # weights_path: "./models/HardNet128.pth"
+        
+        image_size: 128
+        patch_size: 64
+        matching_threshold: 0.5
+        distance_matching_threshold: 5

@@ -1,0 +1,13 @@
+paths:
+    log: "runs"
+    validation_data: "./data/Colon-IV/TumorfreeTrajectory_1"
+    txtsavepath: "./data/Colon-IV/TumorfreeTrajectory_1/modeloutput/"
+params:
+        model_name: "HardNet128"
+        weights_path: "./models/HardNet128.pth"
+        # model_name: "stomachNet128"
+        # weights_path: "./models/stomachNet128.pth"
+        image_size: 128
+        patch_size: 64
+        matching_threshold: 0.5
+        distance_matching_threshold: 5

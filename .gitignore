@@ -1,0 +1,9 @@
+.idea
+.git
+outputs/*
+runs/*
+venv
+data/*
+!data/.gitkeep
+triplets/*
+__pycache__

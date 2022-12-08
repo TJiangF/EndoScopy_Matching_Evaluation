@@ -1,0 +1,17 @@
+paths:
+    log: "runs"
+    train_data: "./data/train_dataset/HighCam/Colon-IV/frame"
+params:
+        model: "HighCam_Colon-IV_Net128"
+        loss_layer: "HardNetLoss"
+        nb_epoch: 300
+        lr: 5e-5
+        batch_size: 128
+        image_size: 128
+        margin_value: 1
+        loss_weight: 0.5
+        momentum: 0.9
+        weight_decay: 1e-4
+hydra:
+    job:
+        chdir: true
