@@ -1,7 +1,7 @@
 ## Image Understanding Final Project
 
 ### Methodalogy
-- Paper & Code source
+- Paper & Code source  
 https://github.com/abenhamadou/Self-Supervised-Endoscopic-Image-Key-Points-Matching  
 https://www.sciencedirect.com/science/article/pii/S0957417422017274  
 
