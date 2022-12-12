@@ -1,6 +1,6 @@
-### Image Understanding Final Project
+## Image Understanding Final Project
 
-## User Instruction
+### User Instruction
 actiavte virtual environment with anaconda:  
 source activate crns---self-sup-image-matching  
 sequence of running through the process:  
