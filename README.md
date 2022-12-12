@@ -9,6 +9,6 @@ source activate crns---self-sup-image-matching
 3. validation(with orignal dataset) -> absolute accuracy  
 3. estimation(with own dataset) -> relative accuracy  
 4. matching demo -> frames & gifs  
-####Run in terminal:  
-####python run_xxx.py  
+- Run in terminal:  
+python run_xxx.py  
 
