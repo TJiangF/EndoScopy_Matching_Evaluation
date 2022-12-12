@@ -28,7 +28,7 @@ import torch
 import statistics
 
 from src.utils.matcher import feature_match, feature_extraction, evaluate_matches
-from src.datasets.test_patch_loader import PatchDataset
+from src.datasets.test_patch_loader import PatchDataset, PatchDataset_demo
 from src.models.arch_factory import model_factory
 
 
@@ -66,6 +66,7 @@ def main(cfg):
     # generate patches from video frames
     # generate testing data
     test_dataset = PatchDataset(validation_data_root, patch_size)
+    # test_dataset = PatchDataset_demo(validation_data_root, patch_size) #using own dataset and result
 
     # list to store output git frames
     frame_path_list = []

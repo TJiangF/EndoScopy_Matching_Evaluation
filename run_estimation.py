@@ -46,6 +46,7 @@ def main(cfg):
     matching_threshold = cfg.params.matching_threshold
     current_time = datetime.datetime.now()
     paramsavepath = cfg.paths.paramsavepath  + 'Parameters.txt'
+    Frame_indx = cfg.params.Frame_indx
 
     with open(paramsavepath,'w') as f:
         f.write('Estimation time = ' + str(current_time)+ '\r\n')
@@ -95,7 +96,7 @@ def main(cfg):
         #     distance_list,
         #     matching_threshold,
         # )
-        framematchdst=txtsavedst+'Frame'+str(i)
+        framematchdst=txtsavedst+'Frame'+str(i+Frame_indx)
         matchesoutput(
             gt_keypoint_src,
             gt_keypoint_dst,

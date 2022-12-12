@@ -1,8 +1,8 @@
 paths:
     log: "runs"
-    train_data: "./data/train_dataset/HighCam/Colon-IV/frame"
+    train_data: "./data/train_dataset/HighCam_Stomach_train/frame"
 params:
-        model: "HighCam_Colon-IV_Net128"
+        model: "HighCam_Stomach_Net128"
         loss_layer: "HardNetLoss"
         nb_epoch: 300
         lr: 5e-5

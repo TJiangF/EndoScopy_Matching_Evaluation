@@ -1,19 +1,22 @@
 paths:
     log: "runs"
-    validation_data: "./data//Unity_Stomach"
-    txtsavepath: "./data//Unity_Stomach/modeloutput/"
-    paramsavepath: "./data//Unity_Stomach/modeloutput/"
+    validation_data: "./data/HighCam/Colon-IV/TumorfreeTrajectory_4"
+    txtsavepath: "./data/HighCam/Colon-IV/TumorfreeTrajectory_4/pretrained_modeloutput/"
+    paramsavepath: "./data/HighCam/Colon-IV/TumorfreeTrajectory_4/pretrained_modeloutput/"
 params:
         model_name: "HardNet128"
-        model: "UnityCam_Stomach_Net128"
-        weights_path: "./models/UnityCam_Stomach_Net128.pth"
+        # model: "HighCam_Colon-IV_Net128"
+        # weights_path: "./models/HighCam_Colon-IV_Net128.pth"
         # model: "LowCam_Small_Intestine_Net128"
         # weights_path: "./models/LowCam_Small_Intestine_Net128.pth"
         # model: "LowCam_Colon4_Net128"
         # weights_path: "./models/LowCam_Colon4_Net128.pth"
-        # model: "HardNet128"
-        # weights_path: "./models/HardNet128.pth"
+        model: "HardNet128"
+        weights_path: "./models/HardNet128.pth"
+        # model: "HighCam_Small_Intestine_Net128"
+        # weights_path: "./models/HighCam_Small_Intestine_Net128.pth"
         
+        Frame_indx: 0
         image_size: 128
         patch_size: 64
         matching_threshold: 0.5

@@ -1,6 +1,6 @@
 paths:
     log: "runs"
-    demo_sequence_data: "./data/test_dataset"
+    demo_sequence_data: "./data/LowCam/Colon-IV/matching_demo"
 params:
         model_name: "HardNet128"
         weights_path: "./models/HardNet128.pth"

@@ -1,6 +1,6 @@
 paths:
-    raw_data_dirs: ["/home/tf/Documents/Image_Understanding_project/Self-Supervised-Endoscopic-Image-Key-Points-Matching/data/HighCam/Colon-IV/TumorfreeTrajectory_1/frame",]
-    export_dir: "/home/tf/Documents/Image_Understanding_project/Self-Supervised-Endoscopic-Image-Key-Points-Matching/data/train_dataset/HighCam/Colon-IV"
+    raw_data_dirs: ["/home/tf/Documents/Image_Understanding_project/Self-Supervised-Endoscopic-Image-Key-Points-Matching/data/HighCam/Stomach-I/TumorfreeTrajectory_1/sequence/frame",]
+    export_dir: "/home/tf/Documents/Image_Understanding_project/Self-Supervised-Endoscopic-Image-Key-Points-Matching/data/train_dataset/HighCam_Stomach_train"
 params:
     keypoint_extractor: "SIFT"
     # distance in pixel
