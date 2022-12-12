@@ -1,8 +1,8 @@
 ## Image Understanding Final Project
 
 ### User Instruction
-actiavte virtual environment with anaconda:  
-source activate crns---self-sup-image-matching  
+- actiavte virtual environment with anaconda:  
+- source activate crns---self-sup-image-matching  
 sequence of running through the process:  
 1.generate triplet loss  
 2.training  
