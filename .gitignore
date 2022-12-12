@@ -5,6 +5,5 @@ runs/*
 venv
 data/*
 !data/.gitkeep
-/output_gifs/*
 /triplets
 __pycache__
